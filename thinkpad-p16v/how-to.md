@@ -244,3 +244,11 @@ nmcli device wifi connect network-name password network-password
 ```
 sudo apt install -y xfce4 xfce4-goodies
 ```
+
+#### Passo 7: configurar o google chrome
+
+Recomendamos mudar uma flag no google chrome para deixar a execução de vídeos melhor.
+
+1. Acesse o google chrome
+2. Digite `chrome://flags/`
+3. Habilite a opção "Override software rendering list"
