@@ -96,7 +96,7 @@ Após finalizada a gravação podemos fazer o boot com o flash-drive.
 
 #### Passo 4: fazer boot com a nova iso e baixar os scripts
 
-- Ao reiniciar o computador, aperta F12 para escolher uma opção de boot.
+- Ao reiniciar o computador, aperte F12 para escolher uma opção de boot.
 
 - Escolher a opção do drive usb.
 
@@ -105,6 +105,12 @@ Após finalizada a gravação podemos fazer o boot com o flash-drive.
 - Como a placa de rede wifi não é reconhecida automaticamente no debian será necessário obter conexão com a internet de outra maneira. Sugestões:
     - Utilizar um cabo de rede;
     - Fazer tethering via usb.
+
+- Acesse o sistema como superusuário:
+
+```
+sudo su
+```
 
 - Após o sistema ter iniciado, verificar conexão com a internet. Algo como `ping 8.8.4.4` deve resolver:
 
@@ -129,7 +135,7 @@ ping: connect: Network is unreachable
 - Com a conexão à internet estabelecida instalaremos o git para fazer o download dos scripts:
 
 ```
-sudo apt install -y git
+apt install -y git
 ```
 
 - Agora clonamos o repositório
@@ -238,5 +244,3 @@ nmcli device wifi connect network-name password network-password
 ```
 sudo apt install -y xfce4 xfce4-goodies
 ```
-
-
