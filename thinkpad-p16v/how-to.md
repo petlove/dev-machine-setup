@@ -100,6 +100,8 @@ Após finalizada a gravação podemos fazer o boot com o flash-drive.
 
 - Escolher a opção do drive usb.
 
+- Escolher a opção "live system" (amd64).
+
 - Esperar a inicialização do sistema.
 
 - Como a placa de rede wifi não é reconhecida automaticamente no debian será necessário obter conexão com a internet de outra maneira. Sugestões:
