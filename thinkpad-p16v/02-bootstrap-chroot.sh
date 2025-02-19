@@ -326,6 +326,7 @@ sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen && \
 
 echo ">> Configure local time"
 cp /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
+timedatectl set-timezone America/Sao_Paulo
 
 echo ">> Installing packages related to intel"
 apt install -y \
